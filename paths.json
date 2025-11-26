@@ -1,10 +1,17 @@
 {
   "mappings": [
-    "/content/aem-boilerplate/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json",
-    "/content/aem-boilerplate/metadata:/metadata.json"
+    "/content/fbs-demo/:/",
+    "/content/fbs-demo/configuration:/.helix/config.json",
+    "/content/fbs-demo.resource/query-index.json:/query-index.json",
+    "/content/fbs-demo.resource/us-en/query-index.json:/us-en/query-index.json",
+    "/content/fbs-demo.resource/de-de/query-index.json:/de-de/query-index.json",
+    "/content/fbs-demo/metadata:/metadata.json",
+    "/content/fbs-demo/redirects:/redirects.json",
+    "/content/fbs-demo/api/authors.json",
+    "/content/fbs-demo/api/dictionary.json"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/fbs-demo/",
+    "/content/dam/"
   ]
 }
