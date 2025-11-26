@@ -79,9 +79,64 @@
       ]
     },
     {
+      "title": "Marginal",
+      "id": "marginal",
+      "components": [
+        {
+          "title": "Marginal",
+          "id": "marginal",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/section/v1/section",
+                "template": {
+                  "name": "Marginal",
+                  "model": "marginal",
+                  "filter": "section"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
       "title": "Blocks",
       "id": "blocks",
       "components": [
+        {
+          "title": "Accordion",
+          "id": "accordion",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Accordion",
+                  "filter": "accordion",
+                  "model": "accordion",
+                  "accordion-single-open": false
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Accordion Item",
+          "id": "accordionitem",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Accordion Item",
+                  "model": "accordionitem",
+                  "accordion-item-open": false
+                }
+              }
+            }
+          }
+        },
         {
           "title": "Cards",
           "id": "cards",
@@ -122,6 +177,22 @@
                 "template": {
                   "columns": "2",
                   "rows": "1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Custom Button",
+          "id": "custom-button",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Custom Button",
+                  "filter": "custom-button",
+                  "model": "custom-button"
                 }
               }
             }
