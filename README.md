@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--fbs-demo--comwrap.aem.page/
-- Live: https://main--fbs-demo--comwrap.aem.live/
+- Preview: https://main--fbs-demo--i-andric.aem.page/
+- Live: https://main--fbs-demo--i-andric.aem.live/
 
 ## Documentation
 
